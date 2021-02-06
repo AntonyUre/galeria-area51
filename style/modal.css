@@ -1,0 +1,60 @@
+body{
+  position: relative;
+}
+.box-modal{
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+  position: fixed;
+}
+.modal{
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  /* Css global para el modal */
+  background-position: center;
+  background-size:  contain;
+  background-repeat: none;
+}
+.modal div{
+  position: relative;
+}
+#close{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  border-radius: 15px;
+  background: red;
+  padding: 5px 9px;
+  cursor: pointer;
+  /* border-radius: 50px; */
+}
+
+.m_N1{
+  background-image: url(/img/img1.jpg);
+}
+.m_N2{
+  background-image: url(/img/img2.jpg);
+}
+.m_N3{
+  background-image: url(/img/img3.jpg);
+}
+.m_N4{
+  background-image: url(/img/img4.jpg);
+}
+.m_N5{
+  background-image: url(/img/img5.jpg);
+}
+.m_N6{
+  background-image: url(/img/img6.jpg);
+}
