@@ -13,12 +13,12 @@ btn.addEventListener("click", () => {
 });
 
 // Codigo para cerrar el modal
-let close = document.getElementById("close");
+//let close = document.getElementById("close");
 
-close.addEventListener("click", () => {
-  //  alert("cerrar")
-  app.style.display = "none";
-});
+//close.addEventListener("click", () => {
+//  alert("cerrar")
+//  app.style.display = "none";
+//});
 
 // Segundo modal
 let btn2 = document.getElementById("btn_img2");
