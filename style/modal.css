@@ -10,9 +10,13 @@ body{
   position: fixed;
 }
 .modal{
-  width: 600px;
-  height: 500px;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  max-height: 500px;
   position: absolute;
+  /* margin: 10px; */
+  box-sizing: border-box;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -57,4 +61,10 @@ body{
 }
 .m_N6{
   background-image: url(/img/img6.jpg);
+}
+
+@media (max-width: 700px) {
+  .modal{
+    max-height: 400px;
+  }
 }
